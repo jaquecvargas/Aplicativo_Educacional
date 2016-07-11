@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">App</string>
+    <string name="txtIniciarJogo">Jogar</string>
+    <string name="title_activity_categoria">Categoria</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <string-array name="categorias">
+        <item name="animais">Animais</item>
+        <item name="alimentos">Alimentos</item>
+        <item name="objetos">Objetos</item>
+    </string-array>
+</resources>

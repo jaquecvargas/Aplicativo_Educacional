@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/corDeFundo"
+    tools:context="com.book.app.MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:src="@drawable/inicio"
+        />
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="130dp"
+        android:layout_height="50dp"
+        android:background="@color/botaoJogar"
+        android:layout_gravity="center|bottom"
+        android:textColor="#fff"
+        android:layout_marginLeft="12dp"
+        android:layout_marginBottom="30dp"
+        android:onClick="iniciarJogo"
+        android:text="@string/txtIniciarJogo"
+        android:textStyle="bold"
+        android:textSize="20sp" />
+
+</FrameLayout>
